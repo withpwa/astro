@@ -1,14 +1,12 @@
-# PWAs Astro
+# Overview
 
+[![Build Status](https://github.com/withpwa/astro/actions/workflows/release.yml/badge.svg?style=flat-square)](https://github.com/withpwa/astro/actions/workflows/release.yml)
 ![NPM Version](https://img.shields.io/npm/v/%40pwaset%2Fastro?label=%40pwaset%2Fastro&labelColor=balck&color=light)
 
-Progressive Web Applications (PWAs) assets generator for Astro project.
+Effortlessly empower your Astro project with PWA capabilities.
 
 ## Installation
 
-<!-- ## Installations -->
-
-> [!NOTE]
 > This package is compatible with `astro@4.0.0` and above and only supports the latest Integrations API.
 
 ``` shell
@@ -155,5 +153,5 @@ Submit your issues or feedback on our [GitHub](https://github.com/pwa-surge/astr
 
 ## License
 
-[MIT](https://opensource.org/license/MIT)
+MIT
 
