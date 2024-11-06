@@ -148,7 +148,7 @@ export default defineConfig({
 
 ## Contributing
 
-Submit your issues or feedback on our [GitHub](https://github.com/pwa-surge/astro/issues) channel.
+Submit your issues or feedback on our [GitHub](https://github.com/withpwa/astro/issues) channel.
 
 
 ## License
