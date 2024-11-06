@@ -1,0 +1,55 @@
+{
+  "name": "@pwaset/astro",
+  "version": "0.1.0",
+  "description": "PWA and platform-specific asset generator for Astro projects.",
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist/index.d.ts",
+    "dist/index.mjs"
+  ],
+  "scripts": {
+    "fmt": "prettier --write .",
+    "build": "unbuild",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withpwa/astro.git"
+  },
+  "keywords": [
+    "astro-integration",
+    "PWA",
+    "favicons",
+    "ico",
+    "generator",
+    "realfavicongenerator",
+    "Progressive Web Applicaitons (PWAs)"
+  ],
+  "author": "Junlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/withpwa/astro/issues"
+  },
+  "homepage": "https://github.com/withpwa/astro#readme",
+  "devDependencies": {
+    "@types/node": "^22.8.7",
+    "astro": "^4.16.8",
+    "prettier": "^3.3.3",
+    "unbuild": "^2.0.0"
+  },
+  "peerDependencies": {
+    "astro": "^4.0.0"
+  },
+  "dependencies": {
+    "@pwaset/core": "^0.1.2"
+  }
+}
