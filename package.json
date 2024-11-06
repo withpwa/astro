@@ -1,6 +1,6 @@
 {
   "name": "@pwaset/astro",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "PWA and platform-specific asset generator for Astro projects.",
   "type": "module",
   "main": "./dist/index.mjs",
