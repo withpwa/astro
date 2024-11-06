@@ -14,7 +14,7 @@ export interface PWAsComposeOptions extends PWAsOptions {
    * @example
    * ```js
    * input: {
-   *  pwaIcon: ["src/pwa/icon.svg", readFile("src/pwa/icon.png")]
+   *  pwaIcon: ["src/pwa/icon.svg", await readFile("src/pwa/icon.png")]
    * }
    * ```
    */
