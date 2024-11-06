@@ -1,7 +1,7 @@
 # Overview
 
 [![Build Status](https://github.com/withpwa/astro/actions/workflows/release.yaml/badge.svg?style=flat-square)](https://github.com/withpwa/astro/actions/workflows/release.yaml)
-![NPM Version](https://img.shields.io/npm/v/%40pwaset%2Fastro?label=%40pwaset%2Fastro&labelColor=balck&color=light)
+[![NPM Version](https://img.shields.io/npm/v/%40pwaset%2Fastro?label=%40pwaset%2Fastro&labelColor=balck&color=light)](https://www.npmjs.com/package/@pwaset/astro)
 
 Effortlessly empower your Astro project with PWA capabilities.
 
